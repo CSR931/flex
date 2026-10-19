@@ -86,3 +86,12 @@ where gcc
       v
 输出识别结果
 ```
+将textfile.txt放入实验文件夹
+
+打开CMD，进入实验文件夹，具体代码：
+```
+win_flex lexer.l
+gcc lex.yy.c -o lexer.exe
+lexer.exe
+```
+
